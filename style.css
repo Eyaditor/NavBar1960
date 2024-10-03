@@ -1,0 +1,48 @@
+ul {
+    background-color: #eee;
+    padding: 0px;
+    height: 90px;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+
+}
+
+ul li:last-child {
+    float: right;
+    margin-right: 0px;
+    padding: 35px;
+}
+
+ul li a {
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+#url {
+    border: dashed rgb(117, 206, 228) 2px;
+}
+
+#in {
+    border: dashed rgb(20, 190, 20) 2px;
+}
+
+#up {
+    border: dashed rgb(8, 129, 8) 2px;
+}
+
+ul li #img {
+    padding-left: 25px;
+    height: 90px;
+}
+
+ul li a:hover {
+    background-color: #7e7e7e
+}
